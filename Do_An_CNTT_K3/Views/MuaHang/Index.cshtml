@@ -1,0 +1,101 @@
+﻿@model IEnumerable<ShoppingSP>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/css/GioHang.css">
+    <title>Giỏ hàng</title>
+    <style>
+        .Giohang{
+            width:20%;
+           text-decoration:none;
+          color:black;
+        }
+        .giohangone{
+            position: relative;
+            left: 30px;
+        }
+
+        .Giohang p:hover {
+            color:red;
+            
+        }
+    </style>
+</head>
+@if (Model.Any())
+{
+    <div style="margin-bottom:200px;">
+        <div class="cart-content">
+            <div style="margin-top:100px;" class="cart-close"></div>
+            <h2 >Giỏ hàng của bạn</h2>
+            <div class="cart-items" id="cart-items">
+                @foreach (var item in Model)
+                {
+                    <div class="Thongtingiohang" data-id="@item.InformationSP.IdSP" data-price="@item.InformationSP.GiaTien">
+                        <div class="quantity-controls">
+                            <a asp-controller="MuaHang" asp-action="RemoveFromShoppingCart" asp-route-pId="@item.InformationSP.IdSP">
+                                <button type="button" class="decrease-quantity">-</button>
+                            </a> 
+                            <input type="number" value="@item.Qty" class="quantity" min="1" data-product-id="@item.InformationSP.IdSP" readonly>
+                             <button type="button" onclick="addToCart('@item.InformationSP.IdSP')" class="increase-quantity">+</button>
+                        </div>
+                        <div class="imgsp">
+                            <img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@item.InformationSP.Image1" alt="">
+                        </div>
+                        <div class="tenfood">
+                            <p>@item.InformationSP.TenSP</p>
+                        </div>
+                        <div>
+                            <p class="item-total-price">@String.Format("{0:n0}", item.InformationSP.GiaTien * item.Qty) VND</p>
+                        </div>
+                        <div>
+                            <a asp-controller="MuaHang" asp-action="RemoveFromShoppingCart" asp-route-pId="@item.InformationSP.IdSP">
+                                <h3 style="color:red; text-decoration:none;"><i class="fa-solid fa-trash"></i></h3>
+                            </a>
+                        </div>
+                    </div>
+                }
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                <script>
+                    function addToCart(productId) {
+                        // Gửi yêu cầu AJAX để thêm sản phẩm vào giỏ hàng
+                        var xhr = new XMLHttpRequest();
+                        xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+                        xhr.setRequestHeader('Content-Type', 'application/json');
+                        xhr.onreadystatechange = function () {
+                                window.location.reload(); // Loading lại trang sau khi thêm sản phẩm thành công
+                        };
+                        xhr.send();
+                    }
+
+                </script>
+            </div>
+
+            <div class="order">
+                <div class="order1">
+                    <div>
+                        <h3>Tổng Tiền:</h3>
+                    </div>
+                    <div>
+                        <h3 id="total-price">@String.Format("{0:n0}", ViewBag.TotalCart) VND</h3>
+                    </div>
+                </div>
+                <a asp-controller="BanHang" asp-action="Checkout"><input class="dathang" type="submit" value="Đặt Hàng"></a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div style="background-color:aliceblue;padding:100px 0px 50px 0px;">
+        <h2>Giỏ hàng của bạn</h2>
+        <div style="margin-top: 200px; width:80%; margin:auto; text-align:center;">
+            <img style="width: 30%;" src="https://www.svgrepo.com/show/17356/empty-cart.svg" alt="">
+            <a class="Giohang" asp-controller="SanPham" asp-action="TrangChu">
+                <p class="giohangone"><i class="fa-solid fa-arrow-left"></i> Giỏ hàng trống</p>
+            </a>
+        </div>
+    </div>
+}

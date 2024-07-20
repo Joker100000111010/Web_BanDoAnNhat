@@ -1,0 +1,201 @@
+﻿@model Do_An_CNTT_K3.Models.HomePage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/Page/SeaFoodThucAn/SeaFoodThucAn.css">
+    <style>
+        .star-rating {
+            display: flex;
+            direction: rtl;
+            font-size: 2rem;
+        }
+
+            .star-rating input[type="radio"] {
+                display: none;
+            }
+
+            .star-rating label {
+                color: #ccc;
+                cursor: pointer;
+            }
+
+                .star-rating label:hover,
+                .star-rating label:hover ~ label,
+                .star-rating input[type="radio"]:checked ~ label {
+                    color: #f0ad4e;
+                }
+    </style>
+    <title>ThucAn</title>
+</head>
+<body>
+    <div class="mid">
+        <div class="trangchu">
+            <p>TRANG CHỦ / SEAFOOD</p>
+        </div>
+        <div class="body">
+            <div class="bodyleft">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        @if (Model.mota != null)
+                        {
+                            <div class="swiper-slide"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@Model.mota.Image1" alt=""></div>
+                            <div class="swiper-slide"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@Model.mota.Image2" alt=""></div>
+                        }
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="bodyright">
+                @if (Model.mota != null)
+                {
+                    <h2>@Model.mota.TenSP</h2>
+                    <div class="giatien">
+                        <p>@Model.mota.GiamGia</p>
+                        <span>@Model.mota.GiaTien</span>
+                    </div>
+                    <div class="noidung">
+                        <p>@Model.mota.MoTa</p>
+                    </div>
+                    <div class="muahang">
+                        <button class="buy-button" onclick="addToCart('@Model.mota.IdSP')">MUA HÀNG</button>
+                    </div>
+                }
+                <div class="icon">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body1">
+            <hr>
+            <p>ĐÁNH GIÁ</p>
+            <div class="contactForm">
+                <form asp-controller="SanPham" asp-action="BinhLuan">
+                    <h2>Hãy là người đầu tiên đánh giá "@Model.mota?.TenSP"</h2>
+                    <div class="star-rating"> 
+                        <input type="radio" id="5-stars" asp-for="BinhLuan.LoaiDanhGia" value="5" />
+                        <label for="5-stars" class="star">&#9733;</label>
+                        <input type="radio" id="4-stars" asp-for="BinhLuan.LoaiDanhGia" value="4" />
+                        <label for="4-stars" class="star">&#9733;</label>
+                        <input type="radio" id="3-stars" asp-for="BinhLuan.LoaiDanhGia" value="3" />
+                        <label for="3-stars" class="star">&#9733;</label>
+                        <input type="radio" id="2-stars" asp-for="BinhLuan.LoaiDanhGia" value="2" />
+                        <label for="2-stars" class="star">&#9733;</label>
+                        <input type="radio" id="1-stars" asp-for="BinhLuan.LoaiDanhGia" value="1" />
+                        <label for="1-stars" class="star">&#9733;</label>
+                    </div>
+                    <div class="tenvaemail">
+                        <div class="ten">
+                            <div class="inputBox">
+                                <label asp-for="BinhLuan.Ten"></label>
+                                <input asp-for="BinhLuan.Ten" required="required">
+                                <span asp-validation-for="BinhLuan.Ten" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <div class="inputBox">
+                                <label asp-for="BinhLuan.Email"></label>
+                                <input asp-for="BinhLuan.Email" required="required">
+                                <span asp-validation-for="BinhLuan.Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <label style="color:white;" asp-for="BinhLuan.BinhLuan"></label>
+                        <textarea asp-for="BinhLuan.BinhLuan" required="required"></textarea>
+                        <span asp-validation-for="BinhLuan.BinhLuan" class="text-danger"></span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="hidden" asp-for="BinhLuan.InformationSPIdSP" value="@Model.mota?.IdSP">
+                        <input type="submit" value="Gửi">
+                    </div>
+                </form>
+                <br />
+                <br />
+                <br />
+                <div class="comment-section">
+                    <h2 style="color:black;">Bình Luận</h2>
+                    @foreach (var danhGia in Model.DanhGias)
+                    {
+                        <div class="comment">
+                            <div class="avatar">
+                                <img src="https://via.placeholder.com/50" alt="Avatar">
+                            </div>
+                            <div class="comment-content">
+                                <h4>@danhGia.Ten</h4>
+                                <div class="comment-email">@danhGia.Email</div>
+                                <p>@danhGia.BinhLuan</p>
+                                <div class="rating">@danhGia.LoaiDanhGia⭐</div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        function addToCart(productId) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log(xhr.responseText);
+                    alert("Sản phẩm đã được thêm vào giỏ hàng!");
+                    window.location.reload();
+                }
+            };
+            xhr.send();
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+            var comments = document.querySelectorAll('.comment-section .comment');
+            var maxVisibleComments = 3;
+
+            comments.forEach(function (comment, index) {
+                if (index >= maxVisibleComments) {
+                    comment.style.display = 'none';
+                }
+            });
+
+            // Tạo nút "Xem thêm"
+            if (comments.length > maxVisibleComments) {
+                var showMoreButton = document.createElement('button');
+                showMoreButton.textContent = 'Xem thêm';
+                showMoreButton.style.display = 'block';
+                showMoreButton.style.margin = '10px auto';
+                showMoreButton.style.padding = '10px';
+                showMoreButton.style.backgroundColor = '#007bff';
+                showMoreButton.style.color = '#fff';
+                showMoreButton.style.border = 'none';
+                showMoreButton.style.cursor = 'pointer';
+
+                document.querySelector('.comment-section').appendChild(showMoreButton);
+
+                showMoreButton.addEventListener('click', function () {
+                    comments.forEach(function (comment) {
+                        comment.style.display = 'flex';
+                    });
+                    showMoreButton.style.display = 'none';
+                });
+            }
+        });
+    </script>
+    @section Scripts {
+        <script src="~/DoAnMonCNTT/Page/SeaFoodThucAn/SeaFoodThucAn.js"></script>
+    }
+</body>
+</html>

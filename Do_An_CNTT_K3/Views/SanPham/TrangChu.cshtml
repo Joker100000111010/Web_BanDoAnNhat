@@ -1,0 +1,211 @@
+﻿@model Do_An_CNTT_K3.Models.HomePage
+@{
+    var limitedItems = Model.Products.Take(4); // Lấy 4 phần tử đầu tiên từ Model
+    var limitedItems1 = Model.Products.Skip(4).Take(4);
+    var limitedItems2 = Model.Products.Skip(8).Take(8);
+    var list1 = Model.Posters.Take(3); // Lấy 4 phần tử đầu tiên từ Model
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Do_An_CNTT_K3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/css/TrangChu.css">
+</head>
+<body>
+
+
+    <div class="mid">
+        <!--Giữa-->
+        <div class="body">
+            <div> <img src="~/DoAnMonCNTT/images/thongtin/background_body.jpg" alt=""></div>
+            <div class="bodymid">
+                <h2>ĐẠI LÝ BÁN SHUSHI SỐ 1 VIỆT NAM</h2>
+                <p>Hương vị ngon khó cưỡng <br> đến từ xứ sở hoa anh đào</p>
+                <button id="buyNowButton">Buy Now</button>
+            </div>
+        </div>
+        <!--Giữa 1-->
+        <div class="body1">
+            <div class="tieude">
+                <h2>Best Seller</h2>
+                <p>Chúng tôi mang hương vị của biển từ Nhật Bản đến với Việt Nam</p>
+            </div>
+            <!--Căn Giữa-->
+            <div class="information1">
+                <!--Chỉnh thức ăn-->
+                @foreach (var iteam in limitedItems)
+                {
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image1" alt="" class="image"></a>
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image2" alt="" class="hover-image"></a>
+                                <p class="tenthucan other-name hidden">@iteam.View</p>
+                            </div>
+                            <p class="tenthucan">@iteam.TenSP</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>@iteam.GiamGia</p></div>
+                                <div class="giamgia"><p>@iteam.GiaTien</p></div>
+                                <form class="muahang1">
+                                    <input type="hidden" name="pId" value="@iteam.IdSP" />
+                                    <i class="fa-solid fa-plus" onclick="addToCart('@iteam.IdSP')"></i>
+                                </form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <div class="information2">
+                @foreach (var iteam in limitedItems1)
+                {
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image1" alt="" class="image"></a>
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image2" alt="" class="hover-image"></a>
+                                <p class="tenthucan other-name hidden">@iteam.View</p>
+                            </div>
+                            <p class="tenthucan">@iteam.TenSP</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>@iteam.GiamGia</p></div>
+                                <div class="giamgia"><p>@iteam.GiaTien</p></div>
+                                <form class="muahang1">
+                                    <input type="hidden" name="pId" value="@iteam.IdSP" />
+                                    <i class="fa-solid fa-plus" onclick="addToCart('@iteam.IdSP')"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <!--Giữa 2-->
+        <div class="body2">
+            <div class="body2-1">
+                <img src="~/DoAnMonCNTT/images/thongtin/dichvu.png" alt="">
+            </div>
+            <div class="body2-2">
+                <h2>Our Services</h2>
+                <p>Chúng tôi mang đến cho bạn một dịch vụ  chất lượng tốt nhất</p>
+                <div class="center1">
+                    <div class="body2-3">
+                        <div class="body2-3-1"><i class="fa-solid fa-house"></i></div>
+                        <div><p>Dễ Đặt</p></div>
+                        <div><p>Bạn chỉ cần vài bước <br>để đặt món ăn của chúng tôi</p></div>
+                    </div>
+                    <div class="body2-3">
+                        <div class="body2-3-1"><i class="fa-solid fa-house"></i></div>
+                        <div><p>Dễ Đặt</p></div>
+                        <div><p>Bạn chỉ cần vài bước <br>để đặt món ăn của chúng tôi</p></div>
+                    </div>
+                    <div class="body2-3">
+                        <div class="body2-3-1"><i class="fa-solid fa-house"></i></div>
+                        <div><p>Dễ Đặt</p></div>
+                        <div><p>Bạn chỉ cần vài bước <br>để đặt món ăn của chúng tôi</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Giữa 3-->
+        <div class="body3">
+            <div class="bodyhead">
+                <h2>SeaFood</h2>
+                <p>Chúng tôi phục vụ những món ăn đa dạng theo phong cách Nhật Bản</p>
+            </div>
+            <div class="body3-1">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        @foreach (var iteam in limitedItems2)
+                        {
+                            <div class="swiper-slide">
+                                <div class="image-container">
+                                    <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image1 " alt="" class="image primary-image"></a>
+                                    <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image2" alt="" class="image hover-image"></a>
+                                    <p class="tenthucan other-name">@iteam.View</p>
+                                </div>
+                                <p class="tenthucan">@iteam.TenSP</p>
+                                <div class="giatien">
+                                    <!--<div class="giagoc"><p>@iteam.GiamGia</p></div>-->
+                                    <div class="giamgia"><p>@iteam.GiaTien</p></div>
+                                    <form class="muahang1">
+                                        <input type="hidden" name="pId" value="@iteam.IdSP" />
+                                        <i class="fa-solid fa-plus" onclick="addToCart('@iteam.IdSP')"></i>
+                                    </form>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!--Giữa 4-->
+        <div class="body4">
+            <div class="bodyhead">
+                <h2> CULINARY NEWS</h2>
+                <p>Thông tin sự kiện và giảm giá của chúng tôi</p>
+            </div>
+            <div class="center">
+                <div class="tinamthuc">
+                    <img src="~/DoAnMonCNTT/images/Sale Post/SALE_2.png" alt="">
+                </div>
+                <div class="tinamthuc">
+                    <img src="~/DoAnMonCNTT/images/Sale Post/SALE_1.png" alt="">
+                </div>
+                <div class="tinamthuc">
+                    <img src="~/DoAnMonCNTT/images/Sale Post/SALE_3.png" alt="">
+                </div>
+                <div class="tinamthuc">
+                    <img src="~/DoAnMonCNTT/images/Sale Post/SALE_4.png" alt="">
+                </div>
+            </div>
+            <div class="center2">
+                @foreach (var baiViet in list1)
+                {
+                    <div class="tinamthuc1">
+                        <div>
+                            <a asp-controller="SanPham" asp-action="ThongTinBaiViet" asp-route-id="@baiViet.IdBV" onclick="increaseViewsById(@baiViet.IdBV);updateDate(@baiViet.IdBV);">
+                                <img src="~/DoAnMonCNTT/images/Sale Post/@baiViet.ImgBV" alt="">
+                                <h4>@baiViet.TieuDe</h4>
+                                <p><i class="fa-regular fa-eye"></i> Lượt xem: <span id="views@baiViet.IdBV">@baiViet.Luotxem</span></p>
+                                <p>Ngày: <span id="date@baiViet.IdBV">@baiViet.ThoiGianBaiViet.ToString("dd/MM/yyyy")</span></p>
+                            </a>
+                        </div>
+                    </div>
+                }<!--href="~/DoAnMonCNTT/Page/Sale1.html"-->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="~/DoAnMonCNTT/js/TrangChu.js"> </script>
+        <script>
+            function addToCart(productId) {
+                // Gửi yêu cầu AJAX để thêm sản phẩm vào giỏ hàng
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        // Xử lý phản hồi từ máy chủ (nếu cần)
+                        console.log(xhr.responseText);
+                        alert("Sản phẩm đã được thêm vào giỏ hàng!");
+                        window.location.reload(); // Loading lại trang sau khi thêm sản phẩm thành công
+                    }
+                };
+                xhr.send();
+            }
+        </script>
+
+
+
+</body>
+</html>

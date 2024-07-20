@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Checkout Complete";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán thành công</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color:whitesmoke;
+        }
+
+
+        p {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            background-color: brown;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .back-button:hover {
+                background-color: #b58d50;
+            }
+    </style>
+</head>
+<body>
+    <div style="margin-top:100px;"></div>
+    <img src="https://cdn-icons-png.flaticon.com/512/148/148767.png" class="img-fluid"
+         style="width: 200px; height: 200px; margin-left: auto; margin-right: auto"
+         alt="...">
+    <h2>Thanh toán thành công</h2>
+    <p>Cảm ơn bạn đã mua hàng!</p>
+    <a asp-controller="SanPham" asp-action="TrangChu"> <button class="back-button">Quay lại shop</button></a>
+    <div style="margin-bottom:180px;"></div>
+</body>
+</html>

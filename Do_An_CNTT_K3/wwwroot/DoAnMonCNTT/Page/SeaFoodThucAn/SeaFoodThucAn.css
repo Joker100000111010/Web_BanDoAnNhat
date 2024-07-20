@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.fa-bars, .fa-xmark {
+    display: none;
+}
+
+/*body bao quát*/
+body
+{
+
+    font-family: var(--main-text-forn);
+    background-color: #303030;
+}
+/*--Màu chính và chữ chính--*/
+:root
+{
+    --main-color: #19171A;
+    --main-text-forn: 'Montserrat' , sans-serif;
+}
+/*Giữa*/
+.trangchu
+{
+    padding-left: 5%;
+    font-size: 25px;
+    color: white;
+}
+.body
+{
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: 45% 55%; /*phân chia cột trái phải*/ 
+}
+/*Giữa trái*/
+.bodyleft
+{
+    width: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+    .bodyleft .swiper {
+        width: 100%;
+        height: 370px;
+    }
+
+    .bodyleft .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bodyleft .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 370px;
+            object-fit: cover;
+        }
+/*Giữa phải*/
+.bodyright
+{
+    width: 100%;
+}
+.bodyright h2
+{
+    text-align: center;
+}
+/*Chỉnh giá tiền*/
+.giatien
+{
+    display: flex;
+}
+.giatien p
+{
+    padding-left: 3%;
+    font-size: 25px;
+    margin-top: 0px;
+    text-decoration: line-through;
+    color: #BE2929;
+}
+.giatien span
+{
+    font-size: 25px;
+    padding-left: 2%;
+    font-weight: bold;
+    color: red;
+}
+/*Chỉnh nội dung*/
+.noidung
+{
+    margin-top: -4%;
+    padding-left: 3%;
+}
+/*Phần mua hàng*/
+.muahang {
+    display: flex;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+/*Phần tăng giảm số lượng*/
+.quantity-controls-seedfood {
+    display: flex;
+    align-items: center;
+    margin-right: 10px
+}
+
+    .quantity-controls-seedfood button {
+        background-color: #f2f2f2;
+        border: none;
+        color: #333;
+        font-size: 20px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+.quantity-controls-seedfood {
+    margin: 0; /* Loại bỏ khoảng trống */
+    font-size: 18px;
+    background-color: white;
+    color: #000;
+    padding: 5px 10px;
+}
+/*Nút mua hàng*/
+.muahang .buy-button {
+    background-color: #FF0000; /* Màu nền cho nút mua hàng */
+    color: white; /* Màu chữ cho nút mua hàng */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Thêm transition cho hiệu ứng mềm mại */
+}
+
+.muahang .buy-button:hover 
+{
+    background-color: #BE2929; /* Màu nền khi hover cho nút mua hàng */
+}
+/* Chỉnh icon */
+.icon {
+    width: 100%;
+    display: flex;
+    padding-left: 3%;
+}
+
+.facebook i, .instagram i 
+{
+    font-size: 150%;
+    transition: color 0.3s; /* Thêm transition cho hiệu ứng mềm mại */
+}
+.instagram i 
+{
+    padding-left: 20%;
+}
+.facebook:hover i {
+    color: #3b5998; /* Màu chính của Facebook khi hover */
+}
+
+.instagram:hover i {
+    color: #e4405f; /* Màu chính của Instagram khi hover */
+}
+/*Chỉnh phần đánh giá*/
+.body1
+{
+    width: 100%;
+}
+.body1 hr
+{
+    text-align: center;
+    width: 90%;
+}
+.body1 p
+{
+    font-weight: bold;
+    color: red;
+    padding-left: 5%;
+}
+.contactForm
+{
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    background:#2c2c2c;
+}
+/*Đánh giá sao*/
+.star
+{
+  
+    display: flex;
+    color: #dddddd
+}
+.star span
+{
+    padding: 10px;
+    color: white;
+}
+.sao1{
+    display: flex;
+}
+.motsao:hover, .haisao:hover, .basao:hover, .bonsao:hover, .namsao:hover 
+{
+    color: yellow;
+}
+.selected
+{
+    color: yellow;
+}
+/*Đánh giá điền chữ vào form*/
+.contactForm h2
+{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tenvaemail
+{
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.ten,.email
+{
+    width: 100%;
+}
+.contactForm .inputBox input
+{
+    border-radius: 5px 10px 5px 10px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contactForm .inputBox textarea{
+    border-radius: 5px 10px 5px 10px;
+    width: 100%;
+    padding: 10px 0 80px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0,5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+/*Phan Binh Luan*/
+.comment-section {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.avatar {
+    margin-right: 15px;
+}
+
+    .avatar img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+.comment-content {
+    flex: 1;
+}
+
+    .comment-content h4 {
+        margin: 0 0 5px;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .comment-content .comment-email {
+        font-size: 12px;
+        color: #777;
+    }
+
+    .comment-content p {
+        margin: 5px 0;
+        color: #555;
+    }
+
+.comment-actions {
+    font-size: 12px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+    .comment-actions span {
+        margin-right: 10px;
+    }
+.comment-content {
+    flex-grow: 1;
+    position: relative;
+}
+
+    .comment-content .rating {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 16px;
+        color: orangered; /* Màu vàng cho sao */
+    }
+@media screen and (max-width: 550px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 60%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+   .contactForm
+   {
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+   }
+   .contactForm h2
+   {
+    font-size: 150%;
+   }
+   .tenvaemail
+   {
+    display: block;
+   }
+}
+@media screen and (max-width: 540px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 70%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+   .contactForm
+   {
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+   }
+   .contactForm h2
+   {
+    font-size: 150%;
+   }
+   .tenvaemail
+   {
+    display: block;
+   }
+}
+@media screen and (max-width: 413px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 60%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+   .contactForm
+   {
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+   }
+   .contactForm h2
+   {
+    font-size: 150%;
+   }
+   .tenvaemail
+   {
+    display: block;
+   }
+}
+@media screen and (max-width: 387px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 50%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+.contactForm
+{
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+}
+.contactForm h2
+{
+    font-size: 120%;
+}
+.tenvaemail
+{
+    display: block;
+}
+}
+@media screen and (max-width: 360px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 45%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+   .contactForm
+   {
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+   }
+   .contactForm h2
+   {
+    font-size: 120%;
+   }
+   .tenvaemail
+   {
+    display: block;
+   }
+}
+@media screen and (max-width: 344px)
+{
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 40%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+.contactForm
+{
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+}
+.contactForm h2
+{
+    font-size: 120%;
+}
+.tenvaemail
+{
+    display: block;
+}
+}
+@media screen and (max-width: 336px)
+{
+
+    .trangchu
+    {
+        text-align: center;
+    }
+    .body
+    {
+        display: block;
+    }
+    .star
+    {
+        display: block;
+    }
+    .star i
+    {
+        font-size: 30%;
+    }
+    .sao1
+    {
+        display: flex;
+        gap: 4px;
+        padding-bottom: 8px;
+    }
+    .sao2
+    {
+        display: flex;
+        gap: 10px;
+    }
+   .contactForm
+   {
+    width: 70%;
+    margin: auto; /* Canh giữa form */
+   }
+   .contactForm h2
+   {
+    font-size: 120%;
+   }
+   .tenvaemail
+   {
+    display: block;
+   }
+}

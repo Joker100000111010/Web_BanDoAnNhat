@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Do_An_CNTT_K3.Models.Service
+@using Do_An_CNTT_K3.Data
+@model Do_An_CNTT_K3.Models.TimKiem
+@inject  FoodDbContext dbContext 
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var key = ViewContext.HttpContext.Request.Query["key"].ToString();
+    List<InformationSP> result = new List<InformationSP>();
+}
+@{
+    if (string.IsNullOrEmpty(key) || key.Length < 1)
+    {
+        <a style="text-decoration:none" asp-controller="SanPham" asp-action="SeaFood">
+            <h3 style="margin:100px 0 450px 0;text-align:center;color:whitesmoke">Vui Lòng Nhập từ khóa trong Tìm Kiếm!</h3>
+        </a>
+    }
+    else
+    {
+      
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            <link rel="stylesheet" href="~/DoAnMonCNTT/Page/SeaFoodThucAn/SeaFood/SeaFood.css">
+            <title>SeaFood</title>
+        </head>
+        result = new ThongTinSanPham(dbContext).SearchByKey(key);
+        <body>
+            <div class="body">
+        <div class="bodyleft">
+            <h3>SUSEA</h3>
+            <p>Maki</p>
+            <hr>
+            <p>Shushi</p>
+            <hr>
+            <p>Temaki</p>
+            <h3>SEAFOOD</h3>
+            <p>Maki</p>
+            <hr>
+            <p>Shushi</p>
+            <hr>
+            <p>Temaki</p>
+        </div>
+        <div style="margin-top:80px" class="body1">
+            <div class="tieude">
+                <div class="text">
+                    <h1 style="font-size:25px">Search: @key</h1>
+                </div>
+                <form class="TimKiem" name="timkiem" action="/SanPham/Search" method="get">
+                    <div class="timkiem">
+                        <div><input class="thanhtimkiem" type="text" name="key" placeholder="Tìm Kiếm..."></div>
+                    </div>
+                </form>
+            </div>
+            <!--Căn Giữa-->
+            <div class="information1">
+                <!--Chỉnh thức ăn-->
+                @foreach (var iteam in result)
+                {
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image1" alt="" class="image"></a>
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image2" alt="" class="hover-image"></a>
+                                <p class="tenthucan other-name hidden">@iteam.View</p>
+                            </div>
+                            <p class="tenthucan">@iteam.TenSP</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>@iteam.GiamGia</p></div>
+                                <div class="giamgia"><p>@iteam.GiaTien</p></div>
+                                        <form class="muahang1">
+                                            <input type="hidden" name="pId" value="@iteam.IdSP" />
+                                            <i class="fa-solid fa-plus" onclick="addToCart('@iteam.IdSP')"></i>
+                                        </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        </div>
+            <script>
+                function addToCart(productId) {
+                    // Gửi yêu cầu AJAX để thêm sản phẩm vào giỏ hàng
+                    var xhr = new XMLHttpRequest();
+                    xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+                    xhr.setRequestHeader('Content-Type', 'application/json');
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            // Xử lý phản hồi từ máy chủ (nếu cần)
+                            console.log(xhr.responseText);
+                            alert("Sản phẩm đã được thêm vào giỏ hàng!");
+                            window.location.reload(); // Loading lại trang sau khi thêm sản phẩm thành công
+                        }
+                    };
+                    xhr.send();
+                }
+            </script>
+        </body>
+    }
+}
+
+<script>
+    function submitForm(icon) {
+        // Find the form element that is a parent of the clicked icon
+        const form = icon.closest('form');
+        // Submit the form
+        form.submit();
+    }
+</script>

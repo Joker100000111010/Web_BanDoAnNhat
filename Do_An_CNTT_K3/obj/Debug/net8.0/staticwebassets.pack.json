@@ -1,0 +1,1269 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Do_An_CNTT_K3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Do_An_CNTT_K3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\DoAnCNTT.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\DoAnCNTT.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\Sale1.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\Sale1.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\3.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\3.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\4.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\4.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\5.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\DES 1200X820\\5.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\Img\\[Food Ads] SASHIMI SUSHI 22.mp4",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\Img\\[Food Ads] SASHIMI SUSHI 22.mp4"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\doann.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\z5370881081787_03e97cfd668e404bf51dfd303e1f7ded.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\z5370881081787_03e97cfd668e404bf51dfd303e1f7ded.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\z5394355717913_ec334c452280590bf3986e1c58457e8f.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\Doann\\z5394355717913_ec334c452280590bf3986e1c58457e8f.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFoodThucAn.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\SeaFood.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\package.json",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\package.json"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\sandbox.config.json",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\SeaFood\\sandbox.config.json"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\package.json",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\package.json"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\sandbox.config.json",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\SeaFoodThucAn\\sandbox.config.json"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\lienhe.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\lienhe.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\Page\\test.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\Page\\test.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.html",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.html"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\ThanhToan (1)\\ThanhToan.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\css\\DoAnCNTT.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\css\\DoAnCNTT.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\css\\GioHang.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\css\\GioHang.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\css\\Sale1.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\css\\Sale1.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\css\\TrangChu.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\css\\TrangChu.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\css\\lienhe.css",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\css\\lienhe.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\Bao-ngu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\Bao-ngu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\bao-ngu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\bao-ngu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\baongu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\BaoNgu\\baongu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\Com-taco1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\Com-taco1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\Com-taco2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\Com-taco2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\comtaco.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\ComTaco\\comtaco.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\Comcari1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\Comcari1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\Comcari2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\Comcari2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\comcari.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comcari\\comcari.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\Com-nam2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\Com-nam2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\com-nam-1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\com-nam-1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\comnam.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnam\\comnam.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\Com-nato1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\Com-nato1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\Com-nato2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\Com-nato2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\comnato.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comnatto\\comnato.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\Com-tron-trung1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\Com-tron-trung1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\Com-tron-trung2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\Com-tron-trung2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\comtrontrung.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Comtrontrungsong\\comtrontrung.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\Do-chien-Karage1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\Do-chien-Karage1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\Do-chien-Karage2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\Do-chien-Karage2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\dochien.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Dochienkarage\\dochien.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Hitsumabushi\\Hitsumabushi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\Ishikari-Nabe1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\Ishikari-Nabe1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\Ishikari-Nabe2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\Ishikari-Nabe2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\nabe.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\IshikariNabe\\nabe.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\Lau-Sukiyaki1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\Lau-Sukiyaki1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\Lau-Sukiyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\Lau-Sukiyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\sukiyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\LauSukiyaki\\sukiyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\Lau-shabu-shabu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\Lau-shabu-shabu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\Lau-shabu-shabu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\Lau-shabu-shabu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\shabu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Laushabu-shabu\\shabu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\Mi-Soba1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\Mi-Soba1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\Mi-Soba2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\Mi-Soba2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\soba.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiSoba\\soba.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\Mi-Udon1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\Mi-Udon1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\Mi-Udon2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\Mi-Udon2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\udon.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MiUdon\\udon.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\Mi-ramen1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\Mi-ramen1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\Mi-ramen2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\Mi-ramen2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\ramen.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Miramen\\ramen.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\Miso-Katsu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\Miso-Katsu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\Miso-Katsu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\Miso-Katsu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\katsu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\MisoKatsu\\katsu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Mochi\\mochi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\Nigiri-Ca-Ngu1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\Nigiri-Ca-Ngu1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\Nigiri-Ca-Ngu2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\Nigiri-Ca-Ngu2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\nigiri.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\NigiriCaNgu\\nigiri.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\Okonomiyaki1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\Okonomiyaki1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\Okonomiyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\Okonomiyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\okonomiyaki .txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Okonomiyaki\\okonomiyaki .txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oyster.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oyster.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oysters1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oysters1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oysters2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Oysters\\Oysters2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\Sashimi-Ca-hoi1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\Sashimi-Ca-hoi1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\Sashimi-Ca-hoi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\Sashimi-Ca-hoi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\cahoi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\SashimiCahoi\\cahoi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\Sup-miso1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\Sup-miso1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\Sup-miso2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\Sup-miso2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\miso.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Supmiso\\miso.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\Sushi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\Sushi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\Sushi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\Sushi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\sushi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Sushi\\sushi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\Taiyaki1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\Taiyaki1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\Taiyaki2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\Taiyaki2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\taiyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Taiyaki\\taiyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\Takoyaki1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\Takoyaki1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\Takoyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\Takoyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\takoyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takoyaki\\takoyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\Takuwan1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\Takuwan1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\Takuwan2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\Takuwan2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\takuwan.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Takuwan\\takuwan.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\Taraba Kani và Kegani.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\Taraba Kani và Kegani.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\TarabaKaniKegani1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\TarabaKaniKegani1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\TarabaKani_Kegani2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TarabaKani_Kegani\\TarabaKani_Kegani2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\Temaki-Ca-hoi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\Temaki-Ca-hoi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\Temaki-Ca-hoi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\Temaki-Ca-hoi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\temaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TemakiCa hoi\\temaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\Tempura1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\Tempura1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\Tempura2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\Tempura2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\tempura.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Tempura\\tempura.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\Tobiko-Uramaki1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\Tobiko-Uramaki1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\Tobiko-Uramaki2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\Tobiko-Uramaki2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\tobiko.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\TobikoUramaki\\tobiko.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\Trung-ca-hoi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\Trung-ca-hoi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\Trung-ca-hoi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\Trung-ca-hoi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\trungcahoi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Trungcahoi\\trungcahoi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Umibudo\\Umibudo2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\Yakiniku1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\Yakiniku1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\Yakiniku2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\Yakiniku2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\yakiniku.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yakiniku\\yakiniku.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Anhvathongtindoannhat\\Yudofu\\Yudofu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_10.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_10.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_3.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_3.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_4.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_4.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_5.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_5.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_6.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_6.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_7.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_7.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_8.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_8.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Sale Post\\SALE_9.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Sale Post\\SALE_9.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Mochi\\mochi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\Taiyaki1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\Taiyaki1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\Taiyaki2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\Taiyaki2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\taiyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taiyaki\\taiyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\anhdoannhatnew\\Taraba Kani và Kegani\\Taraba Kani và Kegani2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\logo\\logo.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\Yudofu.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\Yudofu.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\[Food Ads] SASHIMI SUSHI 22.mp4",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\[Food Ads] SASHIMI SUSHI 22.mp4"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\background_body.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\background_body.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\dichvu.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\dichvu.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\giulienlac.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\giulienlac.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\thongtin\\shopping-cart-icon-png-free-image_2605207.png!sw800",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\thongtin\\shopping-cart-icon-png-free-image_2605207.png!sw800"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\Bao-ngu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\Bao-ngu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\bao-ngu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\bao-ngu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\baongu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Bào Ngư\\baongu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\Com-taco1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\Com-taco1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\Com-taco2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\Com-taco2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\comtaco.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm Taco\\comtaco.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\Comcari1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\Comcari1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\Comcari2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\Comcari2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\comcari.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm cà ri\\comcari.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\Com-nato1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\Com-nato1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\Com-nato2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\Com-nato2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\comnato.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm natto\\comnato.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\Com-nam2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\Com-nam2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\com nam 1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\com nam 1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\comnam.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm nấm\\comnam.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\Com-tron-trung1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\Com-tron-trung1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\Com-tron-trung2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\Com-tron-trung2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\comtrontrung.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Cơm trộn trứng sống\\comtrontrung.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Hitsumabushi\\Hitsumabushi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\Ishikari Nabe1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\Ishikari Nabe1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\Ishikari Nabe2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\Ishikari Nabe2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\nabe.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Ishikari Nabe\\nabe.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\Lẩu Sukiyaki1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\Lẩu Sukiyaki1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\Lẩu Sukiyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\Lẩu Sukiyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\sukiyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu Sukiyaki\\sukiyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\Lẩu shabu-shabu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\Lẩu shabu-shabu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\Lẩu shabu-shabu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\Lẩu shabu-shabu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\shabu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Lẩu shabu-shabu\\shabu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\Miso Katsu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\Miso Katsu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\Miso Katsu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\Miso Katsu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\katsu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Miso Katsu\\katsu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\Mì Soba1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\Mì Soba1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\Mì Soba2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\Mì Soba2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\soba.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Soba\\soba.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\Mì Udon1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\Mì Udon1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\Mì Udon2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\Mì Udon2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\udon.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì Udon\\udon.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\Mì ramen1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\Mì ramen1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\Mì ramen2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\Mì ramen2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\ramen.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Mì ramen\\ramen.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\Nigiri Cá Ngừ1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\Nigiri Cá Ngừ1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\Nigiri Cá Ngừ2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\Nigiri Cá Ngừ2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\nigiri.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Nigiri Cá Ngừ\\nigiri.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\Okonomiyaki1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\Okonomiyaki1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\Okonomiyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\Okonomiyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\okonomiyaki .txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Okonomiyaki\\okonomiyaki .txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oyster.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oyster.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oysters1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oysters1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oysters2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Oysters\\Oysters2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\Sashimi Cá hồi1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\Sashimi Cá hồi1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\Sashimi Cá hồi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\Sashimi Cá hồi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\cahoi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sashimi Cá hồi\\cahoi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\Sushi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\Sushi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\Sushi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\Sushi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\sushi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Sushi\\sushi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\Súp miso1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\Súp miso1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\Súp miso2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\Súp miso2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\miso.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Súp miso\\miso.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\Takoyaki1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\Takoyaki1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\Takoyaki2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\Takoyaki2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\takoyaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takoyaki\\takoyaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\Takuwan1.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\Takuwan1.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\Takuwan2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\Takuwan2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\takuwan.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Takuwan\\takuwan.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\Temaki Cá hồi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\Temaki Cá hồi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\Temaki Cá hồi2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\Temaki Cá hồi2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\temaki.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Temaki Cá hồi\\temaki.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\Tempura1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\Tempura1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\Tempura2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\Tempura2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\tempura.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tempura\\tempura.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\Tobiko Uramaki1.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\Tobiko Uramaki1.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\Tobiko Uramaki2.png",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\Tobiko Uramaki2.png"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\tobiko.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Tobiko Uramaki\\tobiko.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\Trứng cá hồi1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\Trứng cá hồi1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\Trứng cá hồi2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\Trứng cá hồi2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\trungcahoi.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Trứng cá hồi\\trungcahoi.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Umibudo\\Umibudo2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\Yakiniku1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\Yakiniku1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\Yakiniku2.webp",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\Yakiniku2.webp"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\yakiniku.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yakiniku\\yakiniku.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Yudofu\\Yudofu2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\Do-chien-Karage1.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\Do-chien-Karage1.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\Do-chien-Karage2.jpg",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\Do-chien-Karage2.jpg"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\dochien.txt",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\images\\Ảnh và thông tin đồ ăn nhật\\Ảnh và thông tin đồ ăn nhật\\Đồ chiên karage\\dochien.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\js\\DoAnCNTT.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\js\\DoAnCNTT.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\js\\GioHang.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\js\\GioHang.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\DoAnMonCNTT\\js\\TrangChu.js",
+      "PackagePath": "staticwebassets\\DoAnMonCNTT\\js\\TrangChu.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FILE CNTT\\DoAnCNTT_8_4_2024\\Do_An_CNTT_K3\\Do_An_CNTT_K3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Do_An_CNTT_K3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Do_An_CNTT_K3.props",
+      "PackagePath": "build\\Do_An_CNTT_K3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Do_An_CNTT_K3.props",
+      "PackagePath": "buildMultiTargeting\\Do_An_CNTT_K3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Do_An_CNTT_K3.props",
+      "PackagePath": "buildTransitive\\Do_An_CNTT_K3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

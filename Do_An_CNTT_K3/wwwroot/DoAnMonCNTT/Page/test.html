@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        /* CSS đã cung cấp */
+        .cart-close .fa-solid {
+            display: block;
+            color: black; /* Thay đổi màu sắc của biểu tượng xóa */
+        }
+        .Thongtingiohang{
+            width: 100%;
+            font-size: 70%;
+            display: grid;
+            grid-template-columns:19% 19% 19% 19% 19%;
+            margin-bottom: 10px;
+            gap: 1%;
+        }
+        .oder1{
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .imgsp {
+            width: 100%;
+        }
+        .imgsp img{
+            width: 100%;
+            height: 50px;
+            object-fit: cover;
+        }
+        .oder {
+            position: relative;
+            margin-top: 10px; /* Adjusted to ensure the order section doesn't overlap */
+        }
+        .dathang {
+            color: var(--white-color);
+            background-color: #BE2929;
+            margin-left: -10px;
+            width: 100%;
+            padding: 25px 135px;
+        }
+        .cart-items {
+            max-height: 200px; /* Đặt chiều cao tối đa cho phần tử chứa dữ liệu */
+            overflow-y: auto; /* Tạo thanh cuộn dọc khi nội dung vượt quá chiều cao tối đa */
+            margin-bottom: 10px;
+        }
+        .discount{
+            width: 100%;
+            display: flex;
+        }
+        .magiamgia{
+            width: 100%;
+            padding: 20px;
+        }
+        .quantity-controls {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .quantity-controls button {
+            width: 100%;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .quantity-controls input {
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+        }
+        .total-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        #apply-discount{
+            background-color: rgb(181, 181, 181);
+            border:  1px solid rgb(181, 181, 181);
+            color: rgb(241, 249, 255);
+        }
+        #apply-discount:hover{
+            background-color: white;
+            color: black;
+        }
+        .delete-item{
+            width: 100%;
+        }
+        #discounted-price-container div h3{
+            font-size: 70%;
+            color: rgb(192, 192, 192);
+        }
+        .giagoc1{
+            position: relative;
+        }
+        .giagoc1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            bottom: 50%;
+            left: 50%;
+            width: 100%;
+            border-bottom: 1px solid rgb(135, 135, 135); /* Chọn màu và độ dày gạch dưới */
+            transform: translateX(-50%); /* Dịch sang trái 50% để giữa */
+        }
+        .total-container h3 {
+            margin: 0;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cart-content">
+    <div class="cart-close"><i class="fa-solid fa-delete-left"></i></div>
+    <h2>Giỏ hàng của bạn</h2>
+
+    <div class="cart-items" id="cart-items">
+        <div class="Thongtingiohang" data-price="100000">
+            <div class="quantity-controls">
+                <input type="number" value="1" class="quantity" min="1">
+            </div>
+            <div class="imgsp">
+                <img src="../images/Anhvathongtindoannhat/Hitsumabushi/Hitsumabushi1.jpg" alt="">
+            </div>
+            <div>
+                <p>Tên Món ăn</p>
+            </div>
+            <div>
+                <p class="item-total-price">100000</p>
+            </div>
+            <div>
+                <button class="delete-item">delete</button>
+            </div>
+        </div>
+        <!-- Lặp lại các khối tương tự cho các món khác -->
+        <div class="Thongtingiohang" data-price="100000">
+            <div class="quantity-controls">
+                <input type="number" value="1" class="quantity" min="1">
+            </div>
+            <div class="imgsp">
+                <img src="../images/Anhvathongtindoannhat/Hitsumabushi/Hitsumabushi1.jpg" alt="">
+            </div>
+            <div>
+                <p>Tên Món ăn</p>
+            </div>
+            <div>
+                <p class="item-total-price">100000</p>
+            </div>
+            <div>
+                <button class="delete-item">delete</button>
+            </div>
+        </div>
+                <div class="Thongtingiohang" data-price="100000">
+            <div class="quantity-controls">
+                <input type="number" value="1" class="quantity" min="1">
+            </div>
+            <div class="imgsp">
+                <img src="../images/Anhvathongtindoannhat/Hitsumabushi/Hitsumabushi1.jpg" alt="">
+            </div>
+            <div>
+                <p>Tên Món ăn</p>
+            </div>
+            <div>
+                <p class="item-total-price">100000</p>
+            </div>
+            <div>
+                <button class="delete-item">delete</button>
+            </div>
+        </div>
+        <!-- Thêm nhiều sản phẩm để kiểm tra thanh cuộn -->
+    </div>
+    <div class="oder">
+        <div class="discount">
+            <input class="magiamgia" type="text" id="discount-code" placeholder="Nhập mã giảm giá">
+            <button id="apply-discount">Áp dụng</button>
+        </div>
+        <div class="oder1">
+            <div>
+                <h3>Tổng Tiền:</h3>
+            </div>
+            <div>
+                <h3 id="total-price">100000</h3>
+            </div>
+        </div>
+        <div id="discounted-price-container" class="oder1 hidden">
+            <div>
+                <h3>Tổng Tiền giảm giá:</h3>
+            </div>
+            <div>
+                <h3 id="total-price" class="giagoc1">100000</h3>
+            </div>
+            <div>
+                <h3 id="discounted-price">100000</h3>
+            </div>
+        </div>
+        <input class="dathang" type="submit" value="Đặt Hàng">
+    </div>
+</div>
+
+<script>
+    let discountRate = 0; // Tỷ lệ giảm giá mặc định
+
+    function updateTotal() {
+        const items = document.querySelectorAll('.Thongtingiohang');
+        let total = 0;
+
+        items.forEach(item => {
+            const quantity = item.querySelector('.quantity').value;
+            const price = item.getAttribute('data-price');
+            const itemTotalPrice = item.querySelector('.item-total-price');
+
+            const totalPriceForItem = quantity * price;
+            itemTotalPrice.textContent = totalPriceForItem;
+            total += totalPriceForItem;
+        });
+
+        document.getElementById('total-price').textContent = total;
+
+        applyDiscount(total);
+    }
+
+    function applyDiscount(total) {
+        const discountedTotal = total * (1 - discountRate);
+        document.getElementById('discounted-price').textContent = discountedTotal;
+    }
+
+    document.querySelectorAll('.quantity').forEach(input => {
+        input.addEventListener('change', updateTotal);
+    });
+
+    document.querySelectorAll('.delete-item').forEach(button => {
+        button.addEventListener('click', (event) => {
+            const item = event.target.closest('.Thongtingiohang');
+            item.remove();
+            updateTotal();
+        });
+    });
+
+    document.querySelectorAll('.increase-quantity').forEach(button => {
+        button.addEventListener('click', (event) => {
+            const quantityInput = event.target.closest('.quantity-controls').querySelector('.quantity');
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+            updateTotal();
+        });
+    });
+
+    document.querySelectorAll('.decrease-quantity').forEach(button => {
+        button.addEventListener('click', (event) => {
+            const quantityInput = event.target.closest('.quantity-controls').querySelector('.quantity');
+            if (quantityInput.value > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+                updateTotal();
+            }
+        });
+    });
+
+    document.getElementById('apply-discount').addEventListener('click', () => {
+        const code = document.getElementById('discount-code').value;
+        
+        // Các mã giảm giá ví dụ
+        const discountCodes = {
+            "long10": 0.1,
+            "long20": 0.2
+        };
+
+        if (discountCodes[code]) {
+            discountRate = discountCodes[code];
+            document.getElementById('discounted-price-container').classList.remove('hidden');
+        } else {
+            discountRate = 0;
+            alert('Mã giảm giá không hợp lệ');
+            document.getElementById('discounted-price-container').classList.add('hidden');
+        }
+
+        updateTotal();
+    });
+
+    window.addEventListener('load', updateTotal);
+</script>
+
+</body>
+</html>

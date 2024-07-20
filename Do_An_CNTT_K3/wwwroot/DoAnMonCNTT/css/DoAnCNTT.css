@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+df-messenger {
+    --df-messenger-bot-message: #fd7354;
+    --df-messenger-button-titlebar-color: #ff5733;
+}
+/* Phần Đăng NHẬP VÀ Đăng ký*/
+.col-md-4 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #263238;
+    padding: 2px;
+}
+
+.form-control {
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.text-danger {
+    color: rgb(171, 61, 61);
+}
+
+.form-label {
+    display: none;
+}
+
+#login-submit, #registerSubmit {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(171, 61, 61);
+    border: 1px solid rgb(171, 61, 61);
+    color: white;
+    font-weight: 550;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+    #login-submit:hover, #registerSubmit:hover {
+        background-color: rgb(150, 50, 50); /* Màu khi hover */
+    }
+
+    #login-submit:active, #registerSubmit:active {
+        background-color: rgb(120, 30, 30); /* Màu khi nhấp vào */
+    }
+.fogot p a {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+    .fogot p a:hover {
+        color: whitesmoke;
+    }
+
+    .fogot p a:active {
+        color: lightgray; /* Màu khi nhấp vào */
+    }
+    /*body bao quát*/
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: var(--khung);
+        font-family: var(--main-text-forn);
+    }
+.muahang1{
+    padding: 2px;
+    border: 1px solid rgb(104, 104, 103);
+    color: rgb(104, 104, 103);
+    position: absolute;
+    top: 15px;
+    left: 90%;
+}
+/*--Màu chính và chữ chính--*/
+:root {
+    --main-color: #19171A;
+    --white-color: #f2f2f2;
+    --khung: #303030;
+    --text-color: #2D2D2D;
+    --gachphancach: #555555;
+    --main-text-forn: 'Montserrat', sans-serif;
+}
+/*--Phần đầu bao quát hết--*/
+.header {
+    background-color: var(--main-color);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.headerone {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+/*--Mục lục, nút đăng nhập và đăng ký, giỏ hàng--*/
+.header2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mucluc {
+    display: flex;
+    height: 83px;
+}
+
+/*--Mục lục--*/
+.header2 ul {
+    color: var(--white-color);
+    font-family: var(--main-text-forn);
+    font-weight: bold;
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    list-style: none;
+}
+
+    .header2 ul li a:hover {
+        color: #db2b2b;
+        border-bottom: 3px solid #446084;
+    }
+
+.iconlienhe {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+    .iconlienhe div a {
+        text-decoration: none;
+    }
+
+        .iconlienhe div a i {
+            color: rgb(166, 166, 166);
+            font-size: 20px;
+        }
+
+.fa-facebook:hover {
+    color: #0866FF;
+    background-color: var(--white-color);
+    border-radius: 30px;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+    border-radius: 20px;
+}
+
+.fa-instagram:hover {
+    color: #FE0688;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+
+.taikhoan .fa-bars {
+    margin-left: 20%;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* Các phần tử icon menu và đóng menu */
+.fa-bars, .fa-xmark {
+    display: none;
+}
+
+.fa-xmark {
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+
+.taikhoan {
+    display: flex;
+    gap: 20px;
+}
+
+.giohang {
+    position: relative;
+    top: 33px;
+}
+
+    .giohang a {
+        display: flex;
+        gap: 10%;
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+.header2 .giohang .cart-content {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    z-index: 1001; /* Đảm bảo giỏ hàng nằm trên menu */
+}
+
+    /* Hiển thị giỏ hàng khi có lớp show-cart */
+    .header2 .giohang .cart-content.show-cart {
+        right: 0;
+    }
+
+.cart-close {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.cart-content h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.cart-close .fa-solid {
+    display: block;
+    color: black; /* Thay đổi màu sắc của biểu tượng xóa */
+}
+
+.Thongtingiohang {
+    width: 100%;
+    font-size: 70%;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    margin-bottom: 10px;
+    gap: 1%;
+}
+
+.oder1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-content.show-cart {
+    display: block; /* Hiển thị giỏ hàng khi có lớp show-cart */
+    transform: translateX(0%);
+}
+
+.cart-close {
+    cursor: pointer;
+    text-align: right;
+    padding: 10px;
+}
+/* Hiển thị menu khi được kích hoạt */
+.header2 .mucluc ul.show-menu {
+    font-size: 70%;
+    height: auto;
+    margin-left: -40px;
+    margin-top: -20px;
+    transform: translateX(0%);
+    opacity: 1;
+    background-color: #1C1A1A;
+}
+
+.imgsp {
+    width: 100%;
+}
+
+    .imgsp img {
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+    }
+
+.oder {
+    width: 100%;
+    position: relative;
+    margin-top: 10px; /* Adjusted to ensure the order section doesn't overlap */
+}
+
+.dathang {
+    color: var(--white-color);
+    background-color: #BE2929;
+    margin-left: -10px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; /* Làm nút tròn các góc */
+}
+
+    .dathang:hover {
+        background-color: #a52626;
+        color: #ffffff;
+    }
+
+    .dathang:active {
+        background-color: #912121;
+        color: #eaeaea;
+    }
+
+.cart-items {
+    width: 100%;
+    max-height: 350px; /* Đặt chiều cao tối đa cho phần tử chứa dữ liệu */
+    overflow-y: auto; /* Tạo thanh cuộn dọc khi nội dung vượt quá chiều cao tối đa */
+    margin-bottom: 10px;
+}
+
+.discount {
+    padding: 10px;
+    display: flex;
+}
+
+.magiamgia {
+    width: 80%;
+    padding: 20px;
+}
+
+.quantity-controls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+    .quantity-controls button {
+        width: 100%;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .quantity-controls input {
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#apply-discount {
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(181, 181, 181);
+    border: 1px solid rgb(181, 181, 181);
+    color: rgb(241, 249, 255);
+}
+
+    #apply-discount:hover {
+        background-color: white;
+        color: black;
+    }
+
+#discounted-price-container div h3 {
+    font-size: 70%;
+    color: rgb(192, 192, 192);
+}
+
+.giagoc1 {
+    position: relative;
+}
+
+    .giagoc1::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        bottom: 50%;
+        left: 50%;
+        width: 100%;
+        border-bottom: 1px solid rgb(135, 135, 135); /* Chọn màu và độ dày gạch dưới */
+        transform: translateX(-50%); /* Dịch sang trái 50% để giữa */
+    }
+
+.total-container h3 {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+/* Ẩn các phần tử có class .mobile-only theo mặc định */
+.mobile-only {
+    display: none;
+}
+
+/*--Nút đăng nhập*/
+.taikhoan1 {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    background-color: var(--main-color);
+    color: #a8a8a8;
+    border-radius: 100px;
+    border: 1px solid #D9D8D8;
+    transition: all 0.5s ease;
+}
+
+.header2 button:hover {
+    background-color: #bf2525;
+    color: #cbcaca;
+}
+
+.fa-bars {
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+}
+/*--body--*/
+
+.endhead {
+    width: 100%;
+    background-color: #1C1A1A;
+}
+
+.end {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1C1A1A;
+    font-family: var(--main-text-forn);
+    color: white;
+}
+
+.end1-1 {
+    display: flex;
+}
+
+.end1, .end2, .end3, .end4 {
+    width: 15%;
+}
+
+
+
+/*Chinh bo cuc dien thoai*/
+@media(max-width:960px) {
+    .body4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .center2 {
+        margin: auto;
+        background-color: #090B0E;
+    }
+
+    .bodymid {
+        width: 50%;
+        text-align: center;
+        position: relative;
+        bottom: 350px;
+    }
+}
+
+@media(max-width:600px) {
+    .bodymid {
+        width: 50%;
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        font-size: 70%;
+    }
+
+        .bodymid button {
+            background-color: #BE2929;
+            width: 100px;
+            height: 30px;
+            border-radius: 100px;
+        }
+
+
+    .header2 i {
+        display: block;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+    /*Tình chỉnh thanh menu*/
+    .header2 ul {
+        position: fixed;
+        width: 20%;
+        height: 100%;
+        background-color: var(--main-color);
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    /* Đảm bảo rằng menu được ẩn ban đầu */
+    .header2 .mucluc ul {
+        transform: translateX(100%);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.0s ease;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        padding-top: 60px;
+    }
+
+    .header2 ul li {
+        border-bottom: 1px solid var(--white-color);
+        margin-bottom: 20px;
+    }
+
+    .header2 ul > .thanhxoa {
+        width: 20%;
+        position: relative;
+        left: 65%;
+        display: block;
+    }
+
+    .header2 {
+        padding: 0 12px;
+    }
+
+        .header2 div ul li, .iconlienhe {
+            padding-left: 40px;
+        }
+
+    /* Điều chỉnh menu khi nó ẩn đi */
+    .menu-hidden .header2 div ul {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    /* Đặt giỏ hàng ngoài màn hình bên phải mặc định */
+    .header2 .giohang .cart-content {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+        z-index: 1001; /* Đảm bảo giỏ hàng nằm trên menu */
+    }
+
+        /* Hiển thị giỏ hàng khi có lớp show-cart */
+        .header2 .giohang .cart-content.show-cart {
+            right: 0;
+        }
+
+    /* Nút đóng */
+    .cart-close {
+        align-self: flex-end;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .cart-content h2 {
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--main-color);
+    }
+
+    .cart-close .fa-solid {
+        display: block;
+        color: black; /* Thay đổi màu sắc của biểu tượng xóa */
+    }
+
+    .Thongtingiohang {
+        width: 100%;
+        font-size: 70%;
+        display: grid;
+        grid-template-columns: 19% 19% 19% 19% 19%;
+        margin-bottom: 10px;
+        gap: 1%;
+    }
+
+    .oder1 {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imgsp {
+        width: 100%;
+    }
+
+        .imgsp img {
+            width: 100%;
+            height: 50px;
+            object-fit: cover;
+        }
+
+    .oder {
+        position: relative;
+        margin-top: 10px; /* Adjusted to ensure the order section doesn't overlap */
+    }
+
+    .dathang {
+        color: var(--white-color);
+        background-color: #BE2929;
+        margin-left: -10px;
+        width: 100%;
+        padding: 25px 135px;
+    }
+
+    .total-container h3 {
+        margin: 0;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    /* Thiết lập các thuộc tính cho menu khi ở độ rộng màn hình từ 601px đến 960px */
+    .header2 ul {
+        width: 25%; /* Điều chỉnh kích thước của menu */
+    }
+
+    .header2 {
+        padding: 0 20px; /* Điều chỉnh padding cho phần header */
+    }
+}
+
+@media(max-width:560px) {
+    .header1 {
+        position: absolute;
+        left: 40%;
+    }
+
+    .header2 ul li {
+        padding-bottom: 10px;
+    }
+
+        .header2 ul li a:hover {
+            color: #db2b2b;
+            border-bottom: 0px solid #446084;
+        }
+
+    .taikhoan1 {
+        display: none;
+    }
+
+    .bodymid {
+        width: 100%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .information1, .information2 {
+        flex-wrap: wrap;
+    }
+
+    .body1-1 {
+        width: 48%;
+    }
+
+    .thucan img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .body2 {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .body2-1 {
+        width: 80%;
+        margin: auto;
+    }
+
+        .body2-1 img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+    .center1 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .body4 {
+        width: 95%;
+    }
+
+    .center {
+        width: 100%;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .tinamthuc {
+        width: 48%;
+        margin: auto;
+    }
+
+        .tinamthuc img {
+            width: 100%;
+            height: 200px;
+        }
+
+    .center2 {
+        width: 100%;
+        background-color: #090B0E;
+        display: block;
+    }
+
+    .tinamthuc1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .end {
+        display: block;
+    }
+
+    .end1, .end2, .end3, .end4 {
+        width: 100%;
+    }
+}

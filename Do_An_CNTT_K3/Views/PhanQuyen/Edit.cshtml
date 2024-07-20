@@ -1,0 +1,173 @@
+﻿@model Do_An_CNTT_K3.Models.InformationSP
+
+@{
+    ViewData["Title"] = "Sửa Sản Phẩm";
+}
+<style>
+    .container {
+        margin-top: 20px;
+    }
+
+    .card {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .form-group {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+        .form-group.full-width {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+    label {
+        display: block;
+        margin-bottom: .5rem;
+        color: #ced4da;
+    }
+
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #fff;
+        background-color: #495057;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+        input:focus,
+        textarea:focus {
+            color: #fff;
+            background-color: #495057;
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .btn-block {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: .25rem;
+        transition: background-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        text-align: center;
+    }
+
+        .btn-block:hover {
+            background-color: #0056b3;
+        }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-5 {
+        margin-top: 3rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem;
+    }
+</style>
+<div class="container">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form asp-controller="PhanQuyen" asp-action="Edit" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label asp-for="TenSP"></label>
+                                <input asp-for="TenSP" class="form-control" />
+                                <span asp-validation-for="TenSP" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="MoTa"></label>
+                                <textarea asp-for="MoTa" class="form-control"></textarea>
+                                <span asp-validation-for="MoTa" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label asp-for="PTgiamgia"></label>
+                                <input asp-for="PTgiamgia" class="form-control" />
+                                <span asp-validation-for="PTgiamgia" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="GiamGia"></label>
+                                <input asp-for="GiamGia" class="form-control" />
+                                <span asp-validation-for="GiamGia" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label asp-for="GiaTien"></label>
+                                <input asp-for="GiaTien" class="form-control" />
+                                <span asp-validation-for="GiaTien" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="View"></label>
+                                <input asp-for="View" class="form-control" />
+                                <span asp-validation-for="View" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label asp-for="Image1"></label>
+                                <input asp-for="Image1" class="form-control" />
+                                <span asp-validation-for="Image1" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image2"></label>
+                                <input asp-for="Image2" class="form-control" />
+                                <span asp-validation-for="Image2" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="LoaiSP"></label>
+                                <input asp-for="LoaiSP" class="form-control" />
+                                <span asp-validation-for="LoaiSP" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="IdSP" />
+                        <button type="submit" class="btn-block">Cập Nhật Sản Phẩm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

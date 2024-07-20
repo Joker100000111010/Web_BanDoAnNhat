@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Do_An_CNTT_K3.props" />
+</Project>

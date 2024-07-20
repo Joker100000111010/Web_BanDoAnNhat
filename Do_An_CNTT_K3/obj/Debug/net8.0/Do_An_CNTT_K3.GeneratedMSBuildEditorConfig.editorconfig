@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Do_An_CNTT_K3
+build_property.RootNamespace = Do_An_CNTT_K3
+build_property.ProjectDir = D:\FILE CNTT\DoAnCNTT_8_4_2024\Do_An_CNTT_K3\Do_An_CNTT_K3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\FILE CNTT\DoAnCNTT_8_4_2024\Do_An_CNTT_K3\Do_An_CNTT_K3
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/BanHang/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuSGFuZ1xDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/BanHang/CheckoutComplete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuSGFuZ1xDaGVja291dENvbXBsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/LienLac/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGllbkxhY1xDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/LienLac/ContactSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGllbkxhY1xDb250YWN0U3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/MuaHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVhSGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/PhanQuyen/CreateInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXENyZWF0ZUluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/PhanQuyen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/PhanQuyen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/PhanQuyen/QuanLy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhblF1eWVuXFF1YW5MeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/INSTRUCTIONS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxJTlNUUlVDVElPTlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/MoTaSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxNb1RhU1AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/SeaFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTZWFGb29kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/ThongTinBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxUaG9uZ1RpbkJhaVZpZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/SanPham/TrangChu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxUcmFuZ0NodS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/Shared/_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FILE CNTT/DoAnCNTT_8_4_2024/Do_An_CNTT_K3/Do_An_CNTT_K3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-425sm9fl19

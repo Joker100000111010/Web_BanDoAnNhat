@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="ThanhToan.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Thanh Toán</h2>
+        <div class="progress">
+            <div class="step" id="cartStep">
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+            <div class="step" id="mapStep">
+                <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="step" id="flagStep">
+                <i class="fa fa-flag"></i>
+            </div>
+        </div>        
+        <div class="cart-content">
+            <h3>Tóm tắt giỏ hàng</h3>
+            <div class="cart-items" id="cart-items">
+                <div class="Thongtingiohang" data-price="100000">
+                    <div class="quantity-controls">
+                        <div class="quantity-controls">
+                            <button type="button" class="decrease-quantity">-</button>
+                            <input type="number" value="1" class="quantity" min="1">
+                            <button type="button" class="increase-quantity">+</button>
+                        </div>
+                        
+                    </div>
+                    <div class="imgsp">
+                        <img src="https://thucpham02.bkns.biz/wp-content/uploads/2022/08/Rectangle-748978-300x277.png" alt="">
+                    </div>
+                    <div class="item-name">
+                        <p>Eel Uramaki</p>
+                    </div>
+                    <div class="item-total">
+                        <p class="item-total-price">100000</p>
+                    </div>
+                </div>
+                <!-- Lặp lại các khối tương tự cho các món khác -->
+                <div class="Thongtingiohang" data-price="100000">
+                    <div class="quantity-controls">
+                        <div class="quantity-controls">
+                            <button type="button" class="decrease-quantity">-</button>
+                            <input type="number" value="1" class="quantity" min="1">
+                            <button type="button" class="increase-quantity">+</button>
+                        </div>
+                        
+                    </div>
+                    <div class="imgsp">
+                        <img src="https://thucpham02.bkns.biz/wp-content/uploads/2022/08/Rectangle-748978-300x277.png" alt="">
+                    </div>
+                    <div class="item-name">
+                        <p>Eel Uramaki</p>
+                    </div>
+                    <div class="item-total">
+                        <p class="item-total-price">100000</p>
+                    </div>
+                </div>
+                <div class="Thongtingiohang" data-price="100000">
+                    <div class="quantity-controls">
+                        <div class="quantity-controls">
+                            <button type="button" class="decrease-quantity">-</button>
+                            <input type="number" value="1" class="quantity" min="1">
+                            <button type="button" class="increase-quantity">+</button>
+                        </div>
+                        
+                    </div>
+                    <div class="imgsp">
+                        <img src="https://thucpham02.bkns.biz/wp-content/uploads/2022/08/Rectangle-748978-300x277.png" alt="">
+                    </div>
+                    <div class="item-name">
+                        <p>Eel Uramaki</p>
+                    </div>
+                    <div class="item-total">
+                        <p class="item-total-price">100000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="oder">
+                <div class="discount">
+                    <input class="magiamgia" type="text" id="discount-code" placeholder="Nhập mã giảm giá">
+                    <button id="apply-discount">Áp dụng</button>
+                </div>
+                <form class="checkout-form">
+                    <h3>Thông tin thanh toán</h3>
+                    <label for="name">Họ và tên</label>
+                    <input type="text" id="name" placeholder="Nhập họ và tên">
+                    <label for="phone">Nhập số điện thoại</label>
+                    <input type="text" id="phone" placeholder="Nhập số điện thoại">
+                    <label for="diachi">Nhập địa chỉ giao đến</label>
+                    <input type="text" id="diachi" placeholder="Nhập địa chỉ giao đến">
+                    <button type="submit">Thanh toán</button>
+                    <button type="button" class="back-button">Quay lại</button>
+                </form>
+                <div class="oder1">
+                    <div>
+                        <h3>Tổng Tiền:</h3>
+                    </div>
+                    <div>
+                        <h3 id="total-price">100000</h3>
+                    </div>
+                </div>
+                <div id="discounted-price-container" class="oder1 hidden">
+                    <div>
+                        <h3>Tổng Tiền giảm giá:</h3>
+                    </div>
+                    <div>
+                        <h3 id="total-price" class="giagoc1">100000</h3>
+                    </div>
+                    <div>
+                        <h3 id="discounted-price">100000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="modal-close" class="modal-close">&times;</span>
+                <p id="modal-message"></p>
+            </div>
+        </div>
+    </div>
+    <script src="ThanhToan.js"></script>
+</body>
+</html>

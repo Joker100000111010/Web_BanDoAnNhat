@@ -1,0 +1,149 @@
+﻿@model Do_An_CNTT_K3.Models.InformationSP
+
+@{
+    ViewData["Title"] = "Xóa Sản Phẩm";
+}
+<style>
+    .container {
+        margin-top: 20px;
+    }
+
+    .card {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: .5rem;
+        color: #ced4da;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    .img-thumbnail {
+        border: none;
+        max-width: 100px; /* Max width for images */
+    }
+
+    .btn-block {
+        display: block;
+
+        padding: .375rem .75rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: .25rem;
+        transition: background-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+        .btn-block:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-danger.btn-block {
+        width: 101.7%;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color: #fff;
+    }
+
+        .btn-danger.btn-block:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+    .btn-secondary.btn-block {
+        width: 100%;
+        background-color: #6c757d;
+        border-color: #6c757d;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .btn-secondary.btn-block:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-5 {
+        margin-top: 3rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem;
+    }
+
+</style>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form asp-action="Delete" method="post">
+                        <div class="form-group">
+                            <label>Tên Sản Phẩm:</label>
+                            <p>@Model.TenSP</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Mô Tả:</label>
+                            <p>@Model.MoTa</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Phần Trăm Giảm Giá:</label>
+                            <p>@Model.PTgiamgia</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Giảm Giá:</label>
+                            <p>@Model.GiamGia</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Giá Tiền:</label>
+                            <p>@Model.GiaTien</p>
+                        </div>
+                        <div class="form-group">
+                            <label>View:</label>
+                            <p>@Model.View</p>
+                        </div>
+                        <div class="form-group">
+                            <label>Hình Ảnh 1:</label>
+                            <img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@Model.Image1" alt="@Model.TenSP" class="img-thumbnail" width="100" />
+                        </div>
+                        <div class="form-group">
+                            <label>Hình Ảnh 2:</label>
+                            <img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@Model.Image2" alt="@Model.TenSP" class="img-thumbnail" width="100" />
+                        </div>
+                        <div class="form-group">
+                            <label>Loại Sản Phẩm:</label>
+                            <p>@Model.LoaiSP</p>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" asp-for="IdSP" />
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block">Xác Nhận Xóa</button>
+                        <a asp-action="QuanLy" class="btn btn-secondary btn-block">Hủy</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

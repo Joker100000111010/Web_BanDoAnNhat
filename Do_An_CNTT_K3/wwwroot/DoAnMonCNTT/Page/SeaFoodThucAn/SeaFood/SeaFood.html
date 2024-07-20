@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="SeaFood.css">
+    <title>SeaFood</title>
+</head>
+<body>
+    <!--BAO QUÁT-->
+        <!--Đầu-->
+        <div class="header">
+            <div class="headerone">
+                <div class="header2">
+                    <div class="mucluc">
+                        <div>
+                            <i class="fa-solid fa-bars"></i>  
+                        </div>
+                        <div class="header1">
+                            <img src="../images/logo/logo.jpg" width="80px" height="80px" alt="logo">
+                        </div>   
+                        <ul>
+                            <div class="thanhxoa"><i class="fa-solid fa-xmark"></i></div>
+                            <li><a href="../Page/DoAnCNTT.html">HOME</a></li>
+                            <li><a href="../SeaFoodThucAn/SeaFood/SeaFood.html">SEAFOOD</a></li>
+                            <li><a href="">EVENT</a></li>
+                            <li><a href="../Page/lienhe.html">CONTACT</a></li>
+                            <li><a href="../SeaFoodThucAn/Doann/doann.html">INSTRUCTIONS</a></li>
+                            <li class="mobile-only"><a href="">ĐĂNG NHẬP</a></li>
+                            <li class="mobile-only"><a href="">ĐĂNG KÝ</a></li>
+                            <div class="iconlienhe">
+                                <div class="mobile-only"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                                <div class="mobile-only"><a href="" ><i class="fa-brands fa-youtube"></i></a></div>
+                                <div class="mobile-only"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+                            </div>
+    
+                        </ul> 
+                    </div>
+                    <div class="taikhoan">
+                        <button class="taikhoan1">Đăng Nhập / Đăng Ký</button>
+                        <div class="giohang">
+                            <a href="../Page/lienhe.html"><i class="fa-solid fa-cart-shopping"></i><small></small></a>
+                            <div class="cart-content">
+                                <div class="cart-close"><i class="fa-solid fa-delete-left"></i></div>
+                                <h2>Giỏ hàng của bạn</h2>
+                            
+                                <div class="cart-items" id="cart-items">
+                                    <div class="Thongtingiohang" data-price="100000">
+                                        <div class="quantity-controls">
+                                            <input type="number" value="1" class="quantity" min="1">
+                                        </div>
+                                        <div class="imgsp">
+                                            <img src="../images/Anhvathongtindoannhat/Hitsumabushi/Hitsumabushi1.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Tên Món ăn</p>
+                                        </div>
+                                        <div>
+                                            <p class="item-total-price">100000</p>
+                                        </div>
+                                        <div>
+                                            <button class="delete-item">delete</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="oder">
+                                    <div class="discount">
+                                        <input class="magiamgia" type="text" id="discount-code" placeholder="Nhập mã giảm giá">
+                                        <button id="apply-discount">Áp dụng</button>
+                                    </div>
+                                    <div class="oder1">
+                                        <div>
+                                            <h3>Tổng Tiền:</h3>
+                                        </div>
+                                        <div>
+                                            <h3 id="total-price">100000</h3>
+                                        </div>
+                                    </div>
+                                    <div id="discounted-price-container" class="oder1 hidden">
+                                        <div>
+                                            <h3>Tổng Tiền giảm giá:</h3>
+                                        </div>
+                                        <div>
+                                            <h3 id="total-price" class="giagoc1">100000</h3>
+                                        </div>
+                                        <div>
+                                            <h3 id="discounted-price">100000</h3>
+                                        </div>
+                                    </div>
+                                    <input class="dathang" type="submit" value="Đặt Hàng">
+                                </div>
+                                        <!--<div style=" margin-top: 200px;"><img style="width: 30%;" src="https://www.svgrepo.com/show/17356/empty-cart.svg" alt="">
+                                    <p>Giỏ hàng trống</p>
+                                    <a href=""></a>
+                                    </div>-->
+                            </div>
+                    </div>                
+                    </div>   
+                </div>
+            </div>
+        </div>
+    <div class="hinhanh">
+        <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../DES 1200X820/2.png" alt=""></div>
+        <div class="swiper-slide"><img src="../DES 1200X820/5.png" alt=""></div>
+        </div>
+    </div>
+    </div>
+    <div class="body">
+        <div class="bodyleft">
+        <h3>SUSEA</h3>
+        <p>Maki</p>
+        <hr>
+        <p>Shushi</p>
+        <hr>
+        <p>Temaki</p>
+        <h3>SEAFOOD</h3>
+        <p>Maki</p>
+        <hr>
+        <p>Shushi</p>
+        <hr>
+        <p>Temaki</p>
+        </div>
+        <div class="bodyright">
+            <div class="body1">
+                <div class="tieude">        
+                    <div class="text">
+                        <h2>SEAFOOD</h2>
+                    </div>
+                    <div class="timkiem">
+                    <input type="text" placeholder=" Tìm kiếm...">
+                    </div>
+                </div>
+                <!--Căn Giữa-->
+                <div class="information1">
+                    <!--Chỉnh thức ăn-->
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href=""><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Cơm cà ri/Comcari1.webp" alt="" class="image"></a>
+                            <a href=""><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Cơm cà ri/Comcari2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/bao-ngu1.jpg" alt="" class="image"></a>
+                            <a href="../SeaFoodThucAn/SeaFoodThucAn.html"><img src="../images/Ảnh và thông tin đồ ăn nhật/Ảnh và thông tin đồ ăn nhật/Bào Ngư/Bao-ngu2.jpg" alt="" class="hover-image"></a>
+                            <p class="tenthucan other-name hidden">date</p>
+                            </div>
+                            <p class="tenthucan">Yudofu</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>89.000đ</p></div>
+                                <div class="giamgia"><p>70.000đ</p></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="SeaFood.js"></script>
+</body>
+</html>

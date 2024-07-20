@@ -1,0 +1,70 @@
+﻿@model Do_An_CNTT_K3.Models.Promo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/css/Sale1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>@Model.BaiViets.TieuDe</title>
+</head>
+<body>
+    <div class="baibao">
+        <div id="body">
+            <div class="bodyleft">
+                <div class="Promo">
+                    <h2>PROMO</h2>
+                </div>
+                <div class="thongtin">
+                    <p>
+                        Cách Tham Gia<br>
+                        <i class="fa-solid fa-location-dot"></i> Đến trực tiếp các cửa hàng:<br>
+                        - Chỉ cần ghé thăm bất kỳ chi nhánh nào của chúng tôi và thưởng thức đồ ăn của ToHieuFood với giá ưu đãi.<br><br>
+                        <i class="fa-solid fa-truck-fast"></i> Đặt hàng online:<br>
+                        - Áp dụng mã giảm giá "@Model.BaiViets.TieuDe" khi thanh toán để nhận ưu đãi.<br><br>
+                        <i class="fa-solid fa-shield-halved"></i> Điều Kiện & Điều Khoản:<br>
+                        - Ưu đãi chỉ áp dụng trong thời gian diễn ra sự kiện.<br>
+                        - Không áp dụng cùng các chương trình khuyến mãi khác.<br>
+                        - Áp dụng cho mọi chi nhánh của chúng tôi trên toàn quốc.
+                    </p>
+                    <p><i class="fa-regular fa-eye"></i> <span id="views3">@Model.BaiViets.Luotxem</span> Lượt Xem</p>
+                    <p><i class="fa-solid fa-calendar-days"></i> <span id="date3">@Model.BaiViets.ThoiGianBaiViet</span></p>
+                    <div><img src="~/DoAnMonCNTT/images/Sale Post/@Model.BaiViets.ImgBV" alt=""></div>
+                    <h3>@Model.BaiViets.TieuDe</h3>
+                    <p style="color: #FF4500;">
+                        <i class="fa-solid fa-utensils"></i> &ensp;@Model.BaiViets.NoiDung<br />
+                    </p>
+                </div>
+            </div>
+            <div class="bodyright">
+                <h4>Bài Viết Liên Quan</h4>
+                <div class="anhlienquan">
+                    @foreach (var baiViet in Model.Posters)
+                    {
+                        <a style="color:whitesmoke" asp-controller="SanPham" asp-action="ThongTinBaiViet" asp-route-id="@baiViet.IdBV" onclick="increaseViewsById(@baiViet.IdBV);updateDate(@baiViet.IdBV);">
+                            <img src="~/DoAnMonCNTT/images/Sale Post/@baiViet.ImgBV" alt="">
+                            <h3>@baiViet.TieuDe</h3>
+                            <p style="font-size:15px;"><i class="fa-regular fa-eye"></i> <span id="views@baiViet.IdBV">@baiViet.Luotxem</span> Lượt Xem</p>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/DoAnMonCNTT/js/TrangChu.js"></script>
+    <script>
+        function increaseViewsById(id) {
+            var element = document.getElementById('views' + id);
+            var views = parseInt(element.innerText) || 0;
+            element.innerText = views + 1;
+        }
+
+        function updateDate(id) {
+            var element = document.getElementById('date' + id);
+            var currentDate = new Date().toLocaleString('vi-VN');
+            element.innerText = currentDate;
+        }
+    </script>
+</body>
+</html>

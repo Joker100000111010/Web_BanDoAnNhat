@@ -1,0 +1,114 @@
+﻿@model IEnumerable<Do_An_CNTT_K3.Models.InformationSP>
+@{
+    var limitedItems = Model.Take(4); // Lấy 4 phần tử đầu tiên từ Model
+    var limitedItemsDescending = Model.OrderByDescending(product => product.IdSP).Take(11);// lay tu cao den thap
+    var limitedItemsAscending = Model.OrderBy(product => product.IdSP).Take(4);// lay tu thap den cao
+   }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="~/DoAnMonCNTT/Page/SeaFoodThucAn/SeaFood/SeaFood.css">
+    <title>SeaFood</title>
+</head>
+    </div>
+    </div>
+    </div>
+    <!--BAO QUÁT-->
+    <!--Đầu-->
+    <div class="hinhanh">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="~/DoAnMonCNTT/Page/SeaFoodThucAn/DES 1200X820/5.png" alt=""></div>
+                <div class="swiper-slide"><img src="~/DoAnMonCNTT/Page/SeaFoodThucAn/DES 1200X820/1.png" alt=""></div>
+                <div class="swiper-slide"><img src="~/DoAnMonCNTT/Page/SeaFoodThucAn/DES 1200X820/4.png" alt=""></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="bodyleft">
+            <h3>SUSEA</h3>
+            <p>Maki</p>
+            <hr>
+            <p>Shushi</p>
+            <hr>
+            <p>Temaki</p>
+            <h3>SEAFOOD</h3>
+            <p>Maki</p>
+            <hr>
+            <p>Shushi</p>
+            <hr>
+            <p>Temaki</p>
+        </div>
+        <div class="bodyright">
+            <div class="body1">
+                <div class="tieude">
+                    <div class="text">
+                        <h2>SEAFOOD</h2>
+                    </div>
+                    <form class="TimKiem" name="timkiem" action="/SanPham/Search" method="get">
+                    <div class="timkiem">
+                    <div><input class="thanhtimkiem" type="text" name="key" placeholder="Tìm Kiếm..."></div>
+                    </div>
+                    </form>
+                </div>
+                <!--Căn Giữa-->
+            <div class="information1">
+                <!--Chỉnh thức ăn-->
+                @foreach (var iteam in limitedItemsDescending)
+                {
+                    <div class="body1-1">
+                        <div class="thucan">
+                            <div class="image-container">
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image1" alt="" class="image"></a>
+                                <a asp-controller="SanPham" asp-action="MoTaSP" asp-route-id="@iteam.IdSP"><img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@iteam.Image2" alt="" class="hover-image"></a>
+                                <p class="tenthucan other-name hidden">@iteam.View</p>
+                            </div>
+                            <p class="tenthucan">@iteam.TenSP</p>
+                            <div class="giatien">
+                                <div class="giagoc"><p>@iteam.GiamGia</p></div>
+                                <div class="giamgia"><p>@iteam.GiaTien</p></div>
+                                <form class="muahang1">
+                                    <input type="hidden" name="pId" value="@iteam.IdSP" />
+                                    <i class="fa-solid fa-plus" onclick="addToCart('@iteam.IdSP')"></i>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            </div>
+        </div>
+</div>
+        <script>
+            function submitForm(icon) {
+                // Find the form element that is a parent of the clicked icon
+                const form = icon.closest('form');
+                // Submit the form
+                form.submit();
+            }
+        </script>
+        <script>
+            function addToCart(productId) {
+                // Gửi yêu cầu AJAX để thêm sản phẩm vào giỏ hàng
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        // Xử lý phản hồi từ máy chủ (nếu cần)
+                        console.log(xhr.responseText);
+                        alert("Sản phẩm đã được thêm vào giỏ hàng!");
+                        window.location.reload(); // Loading lại trang sau khi thêm sản phẩm thành công
+                    }
+                };
+                xhr.send();
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="~/DoAnMonCNTT/Page/SeaFoodThucAn/SeaFood/SeaFood.js"></script>

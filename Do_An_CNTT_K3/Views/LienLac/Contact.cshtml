@@ -1,0 +1,53 @@
+﻿@model Do_An_CNTT_K3.Models.Contact
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/css/lienhe.css">
+    <title>Liên Hệ</title>
+</head>
+<body>
+    <section style="margin-top:100px;" class="contact">
+        <div class="content">
+            <h2>Liên Lạc Và Góp Ý Với Chúng Tôi</h2>
+            <p>Bạn vui lòng điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ lại với bạn ngay khi có thể.</p>
+        </div>
+        <div class="contactForm">
+            <form asp-controller="LienLac" asp-action="SubmitBinhLuan">
+                <h2>Gửi Tin Nhắn</h2>
+                <div class="inputBox">
+                    <label asp-for="Ten" class="form-label"></label>
+                    <input asp-for="Ten" required="required">
+                    <span asp-validation-for="Ten">Họ Và Tên</span>
+                </div>
+                <div class="inputBox">
+                    <div class="inputBox">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" required="required">
+                        <span asp-validation-for="Email">Email</span>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="inputBox">
+                        <label asp-for="TenMonAn" class="form-label"></label>
+                        <input asp-for="TenMonAn" required="required">
+                        <span asp-validation-for="TenMonAn">Tên Món Ăn</span>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <label asp-for="Message" class="form-label"></label>
+                    <textarea asp-for="Message" required="required"></textarea>
+                    <span asp-validation-for="Message">Bình Luận</span>
+                </div>
+                <div class="inputBox">
+                    <button style="width: 100px;background: #bf2525;color: white;border: none;cursor: pointer;padding: 10px;font-size: 18px;" type="submit" class="btn btn-primary display-4">
+                        Gửi
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

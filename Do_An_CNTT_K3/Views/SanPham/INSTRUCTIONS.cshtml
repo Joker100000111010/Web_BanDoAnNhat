@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Do_An_CNTT_K3.Models.DanhGia>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/Page/SeaFoodThucAn/Doann/doann.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="menu">
+        <ul>
+            <li><a onclick="toggleDropdown('Hienthi')">ĐỊA CHỈ</a></li>
+            <li><a onclick="toggleDropdown('Hienthi-HCM')">GIỚI THIỆU </a></li>
+        </ul>
+        <hr>
+        <div id="Hienthi" class="Hienthi">
+            <div class="dropdown">
+                <button onclick="toggleMenu()">133 Tô Hiệu</button>
+                <nav class="dropdown-content">
+                    <ul>
+                        <a href="#">133 Tô Hiệu</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+84 375 612 474</a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>133 Tô Hiệu, Đà Lạt, Lâm Đồng</a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.0395387761937!2d108.43032057500399!3d11.971764436009693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317113002b8f5289%3A0xf63ad02c15454079!2zVMO0IEhpw6rMo3UgRm9vZA!5e0!3m2!1svi!2s!4v1715756191213!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <div class="dropdown1">
+                <button onclick="toggleMenu1()">81 Bùi Thị Xuân</button>
+                <nav class="dropdown-content1">
+                    <ul>
+                        <a href="#">81 Bùi Thị Xuân</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+84 375 612 474</a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>81 Bùi Thị Xuân, Đà Lạt, Lâm Đồng</a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.0395387761937!2d108.43032057500399!3d11.971764436009693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317113002b8f5289%3A0xf63ad02c15454079!2zVMO0IEhpw6rMo3UgRm9vZA!5e0!3m2!1svi!2s!4v1715756191213!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <div class="dropdown2">
+                <button onclick="toggleMenu2()">115 Bạch Đằng</button>
+                <nav class="dropdown-content2">
+                    <ul>
+                        <a href="#">115 Bạch Đằng</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+84 375 612 474</a>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>115 Bạch Đằng, Đà Lạt, Lâm Đồng</a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.0395387761937!2d108.43032057500399!3d11.971764436009693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317113002b8f5289%3A0xf63ad02c15454079!2zVMO0IEhpw6rMo3UgRm9vZA!5e0!3m2!1svi!2s!4v1715756191213!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="Hienthi-HCM" class="Hienthi">
+           <div style="margin-top:10px;" class="content1">
+                <div id="DemoVideo">
+                    <video style="margin: auto;" id="myVideo" width="600" height="400" controls>
+                        <source src="~/DoAnMonCNTT/Page/SeaFoodThucAn/Doann/Img/[Food Ads] SASHIMI SUSHI 22.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                    <br>
+                    <br>
+                    <h5 style="color:azure;">Giới Thiệu Món Ăn Sắp Ra Mắt  SASHIMI SUSHI 22</h5>
+                    <br />
+                    <div style="margin-bottom:30px;" class="server">                  
+                        <p>
+                            Ngày nay, ẩm thực Nhật Bản đã trở nên nổi tiếng khắp thế giới bởi sự tinh tế trong hương vị và cầu kỳ trong cách chế biến. Tại thành phố Cần Thơ nói riêng, để thưởng thức được các món ăn Nhật này đã không còn là chuyện khó khăn, tuy nhiên việc chọn đúng nơi để có thể thưởng thức trọn vẹn hương vị của xứ sơ hoa anh đào thì Nhà hàng Sushi 22 là một chọn lựa tuyệt vời nhất.
+                            Giống như những nhà hàng chính gốc tại Nhật bản, Sushi 22 không chỉ đơn giản là nhà hàng với những món ăn đậm đà hương vị truyền thống mà còn là nơi mang đến cho thực khách nét đẹp tinh tế, tính nghệ thuật thông qua cách trình bày món ăn.
+                        </p>
+                    </div>
+                    <h5 style ="color:azure;">Thông Tin Sự Kiện Sắp Ra Mắt</h5style>
+                    <div class="ThongTinPhimXem">
+                        <div class="ImgMovie"><img src="~/DoAnMonCNTT/images/Sale Post/SALE_10.png" alt=""></div>
+                            <div class="informationquyangcao"> <h2 style ="color:tomato">  Ngày Hội Cá Ngừ  <div class="saodanhgia"><p style="color:white" class="nam">Chúng tôi hân hạnh giới thiệu đến quý khách hàng sự kiện đặc biệt "Ngày Hội Cá Ngừ", nơi bạn có thể trải nghiệm những món ăn tuyệt vời được chế biến từ cá ngừ tươi ngon. Đây là cơ hội tuyệt vời để khám phá sự đa dạng và tinh tế của ẩm thực Nhật Bản thông qua các món ăn được làm từ loại cá ngừ hảo hạng.</p></div></h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    <script src="~/DoAnMonCNTT/Page/SeaFoodThucAn/Doann/doann.js"></script>
+    <script>
+        function toggleDropdown(id) {
+            var elements = document.getElementsByClassName('Hienthi');
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'none';
+            }
+            var elementsHCM = document.getElementsByClassName('Hienthi-HCM');
+            for (var i = 0; i < elementsHCM.length; i++) {
+                elementsHCM[i].style.display = 'none';
+            }
+            var element = document.getElementById(id);
+            if (element.style.display === 'none') {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
+            function playVideo(url) {
+                var videoElement = document.getElementById('myVideo');
+                videoElement.src = url;
+                videoElement.play();
+            }
+        }</script>
+</body>
+</html>

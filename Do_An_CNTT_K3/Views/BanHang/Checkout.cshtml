@@ -1,0 +1,109 @@
+﻿@model Do_An_CNTT_K3.Models.Order
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="~/DoAnMonCNTT/ThanhToan (1)/ThanhToan.css">
+</head>
+<body>
+    <div style="margin-top:80px;"></div>
+    <form asp-controller="BanHang" asp-action="Checkout" method="post" class="checkout-form">
+        <div class="container">
+            <h2 style="color:red;">Thanh Toán</h2>
+            <div class="progress">
+                <div class="step" id="cartStep">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+                <div class="step" id="mapStep">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="step" id="flagStep">
+                    <i class="fa fa-flag"></i>
+                </div>
+            </div>
+            <div class="cart-content">
+                <h3>Tóm tắt giỏ hàng</h3>
+                <div class="cart-items">
+                    @foreach (var item in Model.OrderDetails)
+                    {
+                        <div class="Thongtingiohang" data-id="@item.ProductId" data-price="@item.Price">
+                            <div class="quantity-controls">
+                                <a asp-controller="MuaHang" asp-action="RemoveFromShoppingCart" asp-route-pId="@item.ProductId">
+                                    <button type="button" class="decrease-quantity">-</button>
+                                </a>
+                                <input type="number" value="@item.Quantity" class="quantity" min="1" data-product-id="@item.ProductId" readonly>
+                                <button type="button" onclick="addToCart('@item.ProductId')" class="increase-quantity">+</button>
+                            </div>
+                            <div class="imgsp">
+                                <img src="~/DoAnMonCNTT/images/Anhvathongtindoannhat/@item.ProductImage" alt="">
+                            </div>
+                            <div class="item-name">
+                                <p>@item.ProductName</p>
+                            </div>
+                            <div class="item-total">
+                                <p class="item-total-price">@String.Format("{0:n0}", item.Price * item.Quantity) VND</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="oder">
+                <div class="oder1">
+                    <div>
+                        <h3 style="color:firebrick">Tổng Tiền:</h3>
+                    </div>
+                    <div>
+                            <h3 style="color:firebrick" id="total-price">@Model.OrderTotal.ToString("C")</h3>
+
+                    </div>
+                </div>
+                <br />
+                    <br />
+                </div>
+                <div class="oder">
+
+                    <h3>Thông tin thanh toán</h3>
+                    <label for="lastName">Nhập họ và tên</label>
+                    <input type="text" id="lastName" name="LastName" placeholder="Nhập họ và tên" value="@Model.LastName" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Nhập email" value="@Model.Email" required>
+
+                    <label for="phone">Nhập số điện thoại</label>
+                    <input type="text" id="phone" name="Phone" placeholder="Nhập số điện thoại" value="@Model.Phone" required>
+
+                    <label for="address">Nhập địa chỉ giao đến</label>
+                    <input type="text" id="address" name="Address" placeholder="Nhập địa chỉ giao đến" value="@Model.Address" required>
+
+                    <button type="submit">Thanh toán</button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div id="modal" class="modal hidden">
+                <div class="modal-content">
+                    <span id="modal-close" class="modal-close">&times;</span>
+                    <p id="modal-message"></p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div style="margin-top:80px;"></div>
+    <script src="~/DoAnMonCNTT/ThanhToan (1)/ThanhToan.js"></script>
+    <script>
+        function addToCart(productId) {
+            // Gửi yêu cầu AJAX để thêm sản phẩm vào giỏ hàng
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", '/MuaHang/AddToShoppingCart?pId=' + productId, true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function () {
+                window.location.reload(); // Loading lại trang sau khi thêm sản phẩm thành công
+            };
+            xhr.send();
+        }
+
+    </script>
+</body>
+</html>
